@@ -139,7 +139,7 @@ create config folder and add config.env file in it and all all env variables the
 
 ## Screenshots
 
-![App Screenshot](<img width="1280" height="680" alt="68747470733a2f2f692e706f7374696d672e63632f36714c5233574e742f457870656e73652d4d616e6167656d656e742d53797374656d2d42726176652d31392d30342d323032332d31312d30382d35332e706e67" src="https://github.com/user-attachments/assets/3d06832b-3c9f-4565-869d-8014cc907eb9" />
+![App Screenshot]("C:\Users\SHANTANU KHOPE\OneDrive\画像\68747470733a2f2f692e706f7374696d672e63632f36714c5233574e742f457870656e73652d4d616e6167656d656e742d53797374656d2d42726176652d31392d30342d323032332d31312d30382d35332e706e67.png"
 )
 
 ![App Screenshot](https://i.postimg.cc/DynLNXqZ/Expense-Management-System-Brave-19-04-2023-11-08-59.png)
