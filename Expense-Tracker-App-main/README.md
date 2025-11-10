@@ -73,6 +73,86 @@ Support attaching receipts or other relevant documents to expense entries.
     frontend has deployed on AWS and backend on Render.
 
     Set up Continuous Integration and Continuous Deployment (CI/CD) pipelines for automated builds and deployments.
+
+
+## Project Structure
+Expense-Tracker-App-main/
+│
+├── backend/
+│   ├── DB/
+│   │   └── Database.js                 # DB connection setup
+│   ├── Routers/
+│   │   ├── Transactions.js             # Transaction API routes
+│   │   └── userRouter.js               # User API routes
+│   ├── controllers/
+│   │   ├── transactionController.js    # Transaction logic/controllers
+│   │   └── userController.js           # User logic/controllers
+│   ├── models/
+│   │   ├── TransactionModel.js         # Transaction Mongoose Schema
+│   │   └── UserSchema.js               # User Mongoose Schema
+│   ├── .gitignore
+│   ├── app.js                          # Express app entry point
+│   ├── package-lock.json
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   ├── src/
+│   │   ├── Pages/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   ├── Register.js
+│   │   │   │   └── auth.css
+│   │   │   ├── Avatar/
+│   │   │   │   ├── avatar.css
+│   │   │   │   └── setAvatar.js
+│   │   │   ├── Home/
+│   │   │   │   ├── ActionBox.js
+│   │   │   │   ├── Analytics.js
+│   │   │   │   ├── CardBox.js
+│   │   │   │   ├── Home.js
+│   │   │   │   ├── ModelForm.js
+│   │   │   │   ├── TableData.js
+│   │   │   │   └── home.css
+│   │   ├── assets/
+│   │   │   ├── cargando-loading.gif
+│   │   │   ├── gg.gif
+│   │   │   ├── loader.gif
+│   │   │   ├── loading.gif
+│   │   │   ├── logo.svg
+│   │   │   └── robot.gif
+│   │   ├── components/
+│   │   │   ├── CircularProgressBar.css
+│   │   │   ├── CircularProgressBar.js
+│   │   │   ├── Header.js
+│   │   │   ├── LineProgressBar.js
+│   │   │   ├── Particle.js
+│   │   │   ├── Spinner.js
+│   │   │   └── style.css
+│   │   ├── utils/
+│   │   │   ├── App.css
+│   │   │   ├── App.js
+│   │   │   ├── App.test.js
+│   │   │   ├── index.css
+│   │   │   ├── index.js
+│   │   │   ├── logo.svg
+│   │   │   ├── reportWebVitals.js
+│   │   │   └── setupTests.js
+│   ├── .gitignore
+│   ├── README.md
+│   ├── package-lock.json
+│   └── package.json
+│
+├── README.md
+├── package-lock.json
+└── package.json
+
 ## Run Locally
 
 Clone the project
